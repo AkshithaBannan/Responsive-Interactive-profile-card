@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="profile-card">
+    <!-- Profile Image -->
+    <div class="profile-img">
+      <img src="https://via.placeholder.com/150" alt="Profile Picture">
+    </div>
+
+    <!-- Profile Info -->
+    <div class="profile-info">
+      <h2 id="name">John Doe</h2>
+      <h4 id="title">Web Developer</h4>
+      <p id="bio">I love building modern, responsive, and interactive web applications.</p>
+      
+      <!-- Dynamic Info -->
+      <p><strong>Random Hobby:</strong> <span id="hobby">Click button below!</span></p>
+      <p><strong>Profile Views:</strong> <span id="views">0</span></p>
+      
+      <!-- User Input -->
+      <input type="text" id="userInput" placeholder="Enter new name/title">
+      <button id="updateBtn">Update Profile</button>
+      
+      <!-- Interactive Buttons -->
+      <button id="hobbyBtn">Show Random Hobby</button>
+      <button id="viewBtn">Add View</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
